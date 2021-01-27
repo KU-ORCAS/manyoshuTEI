@@ -1,0 +1,888 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="TEI_Schema/tei_all_ja.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>萬葉集第一、ニ</title>
+            <author>藤原定家</author>
+            <editor>合同会社AMANE</editor>
+            <funder>関西大学</funder>
+            <respStmt>
+               <resp when="2020-09">TEI Encoding</resp>
+               <name>合同会社AMANE</name>
+            </respStmt>
+            <respStmt>
+               <resp when="2020-09">TEI Consulting</resp>
+               <name>Kiyonori Nagasaki</name>
+               <name>KU-ORCASユニット４「古典籍資料の情報資源化」</name>
+            </respStmt>
+            <respStmt>
+               <resp when="2020-09">廣瀬本万葉集監修</resp>
+               <name>乾善彦</name>
+               <name>KU-ORCASユニット４「古典籍資料の情報資源化」</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>関西大学</publisher>
+            <authority>合同会社AMANE</authority>
+            <availability>
+               <licence target="https://creativecommons.org/publicdomain/mark/1.0/">クリエイティブ・コモンズ・ライセンス0（CC0）</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>関西大学</institution>
+                  <repository>関西大学図書館</repository>
+                  <idno>210464909</idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation><date when="1781-12-24">天明元年十二月二十四日</date></creation>
+         <handNotes>
+            <handNote>梨園春日冒預書写</handNote>
+         </handNotes>
+         <langUsage>
+            <language ident="jpn">日本語</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab/>
+         <div n="廣瀬本万葉集第二巻">
+            <pb n="四六丁表" facs="https://www.iiif.ku-orcas.kansai-u.ac.jp/iiif/2/210464810%2F0044.tif/full/full/0/default.jpg"/>
+            <div corresp="#盤姫皇后">
+               <div xml:id="旧国歌大観番号八五">
+                  <p>相聞</p>
+                  <p>難波高津宮御宇天皇代<note type="割書" resp="#万葉集">大鷦鷯天皇　謚曰仁徳天皇</note></p>
+                  <p style="text-indent:3em">盤姫皇后思　天皇御作歌四首</p>
+                  <lg xml:id="manyo0085" type="短歌">
+                     <l xml:id="manyo0085_01"><lb/>君之行氣長成奴山多都祢迎加将行待尓可将待</l>
+                     <l xml:id="manyokun0085_01" corresp="#manyo0085_01"><lb/>キミカユキケナカクナリヌヤマタツネ
+                        <note type="注" resp="#定家" place="right">或本ムカヘニ</note>ムカヘカ<anchor type="noteEnd"/>ユカムマチニカマタ
+                        <note type="合点" subtype="異訓" resp="#定家" place="right">〽ム</note>モ<anchor type="noteEnd"/></l>
+                  </lg>
+                  <p style="text-indent:3em">右一首哥山上憶良臣類聚哥林載<note type="異文" resp="#定家" place="right">焉</note>
+                     焉<anchor type="noteEnd"/></p>
+               </div>
+               <pb n="四六丁裏" facs="https://www.iiif.ku-orcas.kansai-u.ac.jp/iiif/2/210464810%2F0045.tif/full/full/0/default.jpg"/>
+               <div xml:id="旧国歌大観番号八六">
+                  <lg xml:id="manyo0086" type="短歌">
+                     <l xml:id="manyo0086_01"><lb/>如此許戀乍<note type="注" subtype="貼紙" resp="#定家" place="margin-head">かくばかり恋つゝもあらは−
+                        <milestone unit="br"/>ナルベシ　不有者不ハ如何</note>不<anchor type="noteEnd"/>有者高山之磐根四巻手死奈麻死物呼</l>
+                     <l xml:id="manyokun0086_01" corresp="#manyo0086_01"><lb/>カクハカリコヒツヽアラスハタカヤマノイハネシマキテシナマシモノヲ</l>
+                  </lg>
+                  <p style="text-indent:3em">右一首哥山上憶良臣類聚歌林載焉</p>
+               </div>
+               <div xml:id="旧国歌大観番号八七">
+                  <lg xml:id="manyo0087" type="短歌">
+                     <l xml:id="manyo0087_01"><lb/>在管裳君乎者将待打靡吾黒髪尓霜乃置萬代日</l>
+                     <l xml:id="manyokun0087_01" corresp="#manyo0087_01"><lb/>アリツヽモキミヲハマタムウチナヒ
+                        <note type="注" resp="#定家" place="right">或本キ</note>ク<anchor type="noteEnd"/>ワカクロカミニシモ
+                        <note type="注" resp="#定家" place="right">ノ字無之</note>ノ<anchor type="noteEnd"/>ヲキマヨヒ</l>
+                  </lg>
+               </div>
+               <div xml:id="旧国歌大観番号八八">
+                  <lg xml:id="manyo0088" type="短歌">
+                     <l xml:id="manyo0088_01"><lb/>秋田之穂上尓霧相朝霞何時邊乃方二我戀将息</l>
+                     <l xml:id="manyokun0088_01" corresp="#manyo0088_01"><lb/>アキノタノホノウヘニキリ
+                        <note type="注" resp="#定家" place="right">或アフ</note>アヒ<anchor type="noteEnd"/>アサカスミイツヘノカタニワカコヒヤマム</l>
+                  </lg>
+                  <p style="text-indent:3em">右一首古歌集中出</p>
+               </div>
+               <pb n="四七丁表"/>
+               <div xml:id="旧国歌大観番号八九">
+                  <p style="text-indent:3em">或本歌曰</p>
+                  <lg xml:id="manyo0089" type="短歌">
+                     <l xml:id="manyo0089_01"><lb/>居明而君乎者持待奴婆珠能吾黒髪尓霜者零騰文</l>
+                     <l xml:id="manyokun0089_01" corresp="#manyo0089_01"><lb/>ヰアカシテキミヲハマタムヌ<note type="異訓" resp="#定家" place="right">マ</note>マ<anchor type="noteEnd"/>
+                        タマノワカクロカミニシモハ<note type="注" resp="#定家" place="right" corresp="#note0001">或本フル</note>
+                        <note type="注" resp="#定家" place="left" corresp="#note0002">伊本御本云フルヲタィ</note>
+                        ヲク<anchor type="noteEnd" xml:id="note0001"/>トモ<anchor type="noteEnd" xml:id="note0002"/></l>
+                  </lg>
+               </div>
+            </div>
+            <div corresp="#軽太郎女">
+               <div xml:id="旧国歌大観番号九〇">
+                  <p style="text-indent:2em">古事記曰軽太子姧軽太郎女故其太子流於伊豫陽也</p>
+                  <p style="text-indent:2em">此時衣通王不堪戀慕而追<sic>羅</sic><corr resp="#定家" rend="right">徃</corr>時歌曰</p>
+                  <lg xml:id="manyo0090" type="短歌">
+                     <l xml:id="manyo0090_01"><lb/>君之行氣長久成奴山多豆乃迎乎将徃待尓者不待</l>
+
+                     <pb n="四七丁裏" facs="https://www.iiif.ku-orcas.kansai-u.ac.jp/iiif/2/210464810%2F0046.tif/full/full/0/default.jpg"/>
+                     <l xml:id="manyokun0090" corresp="#manyo0090_01"><lb/>キミカユキケナカクナリヌヤマタツノムカヘヲユカムマチニハマタシ</l>
+                  </lg>
+                  <p style="text-indent:3em">此云山多豆者是今造木者也</p>
+                  <p style="text-indent:3em">右一首歌古事記與類聚歌林所説不同
+                     <note type="注" resp="#定家" place="right">伊云哥主</note>歌<add resp="#定家" place="right">主</add><anchor type="noteEnd"/></p>
+                  <p style="text-indent:3em">亦異焉因檢日本紀曰難波高津宮御宇大</p>
+                  <p style="text-indent:3em">鷦鷯天皇廿二年春正月天皇語皇后納八田</p>
+                  <p style="text-indent:3em">皇女将為妃時皇后不聽爰天皇歌以乞於皇</p>
+                  <p style="text-indent:3em">后云々</p>
+                  <pb n="四八丁表"/>
+                  
+                  <p style="text-indent:3em">卅年秋九月乙卯朔乙丑
+                     <note type="注" resp="#定家" place="margin-head">履中天皇母<milestone unit="br"/>皇后磐之媛<milestone unit="br"/>菖城襲津彦女也
+                        <milestone unit="br"/>二年三月戊寅/立</note>皇后<anchor type="noteEnd"/>遊行紀伊國到熊野</p>
+                  <p style="text-indent:3em">岬被其處之<note type="訓" resp="#定家" place="right">ミツナカシハ</note>
+                     <note type="注" resp="#定家" place="left">ミヲリノハィ</note>
+                        御綱葉<anchor type="noteEnd"/><anchor type="noteEnd"/>而還於是天皇伺皇后不</p>
+                  
+                  <p style="text-indent:3em">在而娶
+                     <note type="注" resp="#定家" place="margin-head">皇后八田皇女<milestone unit="br"/>卅八年正月<milestone unit="br"/>戊寅立</note>
+                        八田皇女<anchor type="noteEnd"/>納於宮中時皇后到難波濟</p>
+                  <p style="text-indent:3em">聞天皇合八田皇女大恨之云々</p>
+                  <p style="text-indent:3em">亦曰
+                     <note type="訓" resp="#定家" place="right">トヲツアスカヲアサツマ</note>遠飛鳥<anchor type="noteEnd"/>宮御宇
+                     <note type="注" resp="#定家" place="margin-head" corresp="#note0003">允恭天皇
+                        <milestone unit="br"/>仁徳第四<milestone unit="br"/>皇子<milestone unit="br"/>母同履中</note>
+                     <note type="訓" resp="#定家" place="right" corresp="#note0016">ヲアサツマワカコノ</note>雄朝嬬稚子<anchor type="noteEnd" xml:id="note0016"/>
+                     宿祢天皇<anchor type="noteEnd" xml:id="note0003"/></p>
+                  <p style="text-indent:3em">廿三年春三月甲<note type="合点" subtype="異文" resp="#定家" place="right">〽子</note>午<anchor type="noteEnd"/>
+                     朔庚午<anchor type="noteBeginning" xml:id="notestart0001"/>木梨<sic>軽</sic><corr resp="#定家" rend="right">軽</corr>皇子<anchor type="noteEnd" xml:id="noteEnd0001"/>為大</p>
+                  <p style="text-indent:3em">子容姿佳麗見者自感同母妹<sic>軽</sic><corr resp="#定家" rend="right">軽</corr>太娘皇女亦</p>
+             
+                  <pb n="四八丁裏" facs="https://www.iiif.ku-orcas.kansai-u.ac.jp/iiif/2/210464810%2F0047.tif/full/full/0/default.jpg"/>
+                  <note type="注" resp="#定家" place="margin-head" target="#notestart0001" targetEnd="#noteEnd0001">木梨軽皇子<milestone unit="br"/>廿三年三月立<milestone unit="br"/> 為皇太子允/恭第一皇子<milestone unit="br"/>母皇后忍坂<milestone unit="br"/>
+                     <note type="注" resp="#定家" place="margin-right" corresp="#note0011"><note type="訓" resp="#定家" place="right" corresp="#note0013">ワカノケフタマタ</note>
+                     <note type="注" resp="#定家" place="right" corresp="#note0015">應神御子第八</note>
+                        稚野毛二<note type="注" resp="#定家" place="right" corresp="#0014">派</note>
+                        派<anchor type="noteEnd" xml:id="note0013"/><anchor type="noteEnd" xml:id="note0014"/>皇子<anchor type="noteEnd" xml:id="note0015"/>女也</note>
+                     <note type="注" resp="#定家" place="margin-right" corresp="#note0012">衣通姫姉二人納之</note>
+                     大中姫<anchor type="noteEnd" xml:id="note0011"/><anchor type="noteEnd" xml:id="note0012"/>
+                     <milestone unit="br"/>允恭四十二年<milestone unit="br"/>天皇崩
+                     <milestone unit="br"/>太子暴虐<milestone unit="br"/>百姓不従穴穂皇子殺之即帝位云々是為安康</note>
+                  <p style="text-indent:3em">艶妙也云々
+                     </p>
+                  <p style="text-indent:3em">遂竊通乃悒懐少息廿四年夏六月御羮汁凝</p>
+                  <p style="text-indent:3em">以作氷天皇異之卜其所由卜者曰有内乱盖親</p>
+                  <p style="text-indent:3em">々相姧乎云々</p>
+                  <p style="text-indent:3em">仍移<note type="注" resp="#定家" place="right">第二皇女母皆同
+                     <note type="割書" resp="#定家">五男<milestone unit="br"/>四女</note></note>太娘皇女<anchor type="noteEnd"/>
+                     於伊豫者今案二代二<note type="異文" resp="#定家" place="right">時</note>尓<anchor type="noteEnd"/>不見此</p>     
+                  <p style="text-indent:3em">歌也</p>
+               </div>
+            </div>
+            <div corresp="#天智天皇">
+               <div xml:id="旧国歌大観番号九一">
+                  <p>近江大津宮御宇天皇代<note type="割書" resp="#万葉集"><note type="訓" resp="#定家" place="right">アメノミコトアケワケ</note>
+                     天命開別<anchor type="noteEnd"/>天皇謚曰天智天皇</note></p>
+                  <pb n="四九丁表"/>
+                  <p style="text-indent:3em">天皇賜鏡王女御謌一首</p>
+                  <lg xml:id="manyo0091" type="短歌">
+                     <l xml:id="manyo0091_01"><lb/>妹之家毛継而見麻思乎山跡有大嶋嶺尓家母有猿尾</l>
+                     <l xml:id="manyokun0091_01" corresp="#manyo0091_01"><lb/>イモカイヘモ<note type="異訓" resp="#定家" place="right">ツキテミ</note>
+                        タエスミ<anchor type="noteEnd"/>マシヲヤマトナルオホシマミネニイヘモアラマシヲ</l>
+                  </lg>
+                  <p style="text-indent:4em">一云妹之當継而毛見武尓</p>
+                  <p style="text-indent:4em">一云家居麻之乎</p>
+               </div>
+            </div>
+            <div corresp="#鏡王女">
+               <div xml:id="旧国歌大観番号九二">
+                  <p style="text-indent:3em">鏡王女奉和御歌一首</p>
+                  <lg xml:id="manyo0092" type="短歌">
+                     <l xml:id="manyo0092_01"><lb/>秋山之樹下隠逝水乃吾許曽益目御念従者</l>
+
+                     <pb n="四九丁裏" facs="https://www.iiif.ku-orcas.kansai-u.ac.jp/iiif/2/210464810%2F0048.tif/full/full/0/default.jpg"/>
+                     <l xml:id="manyokun0092_01" corresp="#manyo0092_01"><lb/>アキヤマノコノシタカクレユクミツノワレコソマサメミオモヒヨリハ</l>
+                  </lg>
+               </div>
+               <div xml:id="旧国歌大観番号九三">
+                  <p style="text-indent:3em">内大臣藤原卿娉鏡王女時鏡王女贈内大臣歌一首</p>
+                  <lg xml:id="manyo0093" type="短歌">
+                     <l xml:id="manyo0093_01"><lb/>玉匣覆乎安美美開而行者君名者雖有吾名之惜裳モ</l>
+                     <l xml:id="manyokun0093_01" corresp="#manyo0093_01"><lb/>タマクシケオホフ
+                        <note type="注" resp="#定家" place="right">コト伊</note>ヲヤ<anchor type="noteEnd"/>スミアケテイカハキミカナハアレトワカナ
+                        <note type="異訓" resp="#定家" place="right">ノ</note>ヲ<anchor type="noteEnd"/>ヽシモ</l>
+                  </lg>
+               </div>
+            </div>
+            <div corresp="#内大臣藤原卿">
+               <div xml:id="旧国歌大観番号九四">
+                  <p style="text-indent:3em">内大臣藤原卿報贈鏡王女哥一首</p>
+                  <lg xml:id="manyo0094" type="短歌">
+                     <l xml:id="manyo0094_01"><lb/>玉匣将見圓山乃狭名葛佐不寐者遂尓有勝麻之目</l>
+                     <l xml:id="manyokun0094_01" corresp="#manyo0094_01"><lb/>タマクシケミムマトヤマノサ
+                        <note type="合点" subtype="異訓" resp="#定家" place="right">〽ナ</note>ネ<anchor type="noteEnd"/>カツラサネスハ
+                        <note type="注" resp="#定家" place="right">ツヰニ伊</note>ツラキ<anchor type="noteEnd"/>アリ
+                        <note type="注" resp="#定家" place="right">或カテ</note>カセ<anchor type="noteEnd"/>マシ
+                        <note type="異訓" resp="#定家" place="right">ヤ</note><note type="合点" subtype="異訓" resp="#定家" place="left">〽モ</note>
+                        ヲ<anchor type="noteEnd"/><anchor type="noteEnd"/></l>
+                  </lg>
+                  <pb n="五〇丁表"/>
+                  <p style="text-indent:3em">或本歌曰玉匣三室戸山乃</p>
+               </div>
+               <div xml:id="旧国歌大観番号九五">
+                  <p style="text-indent:3em">内大臣藤原卿娶釆女安見児時作歌一首</p>
+                  <lg xml:id="manyo0095" type="短歌">
+                     <l xml:id="manyo0095_01"><lb/>吾者毛也安見児得有皆人乃得難尓為云<note type="訓" resp="#定家" place="left">ヤスミコ</note>
+                        安見<add resp="#定家" place="right">児</add><anchor type="noteEnd"/>衣多利</l>
+                     <l xml:id="manyokun0095_01" corresp="#manyo0095_01"><lb/>ワレハモヤヽ
+                        <note type="注" resp="#定家" place="right" corresp="#note0004">或スラヲ</note>スミ
+                        <note type="注" resp="#定家" place="left" corresp="#note0005">コィ</note>ヲ
+                        <anchor type="noteEnd" xml:id="note0004"/><anchor type="noteEnd" xml:id="note0005"/>
+                        エタリミナヒトノエカテニストイフヤス<note type="異訓" resp="#定家" place="right">ミコ</note>
+                        ラミ<anchor type="noteEnd"/>エタリ</l>
+                  </lg>
+               </div>
+            </div>
+            <div corresp="#久米禅師">
+               <div xml:id="旧国歌大観番号九六">
+                  <p style="text-indent:3em">久米禅師娉石川郎女時哥五首</p>
+                  <lg xml:id="manyo0096" type="短歌">
+                     
+                     <l xml:id="manyo0096_01"><lb/>水薦苅信濃乃真弓吾引者宇真人佐備而不欲
+                        <lb/>常将言可聞<note type="割書" resp="#万葉集">禅師</note></l>
+                     
+                     <pb n="五〇丁裏" facs="https://www.iiif.ku-orcas.kansai-u.ac.jp/iiif/2/210464810%2F0049.tif/full/full/0/default.jpg"/>
+                     <l xml:id="manyokun0096_01" corresp="#manyo0096_01">
+                        <lb/><note type="合点" subtype="摘句" resp="#定家" place="right" corresp="#note0017">〽ミコモカルナナノヽイユミ</note>
+                        ミコモカルシナノヽマユミワカヒ<note type="合点" subtype="異訓" resp="#定家" place="right">〽カ</note>ケ<anchor type="noteEnd"/>
+                        ハ<note type="異訓" resp="#定家" place="right">ム</note>ウ<anchor type="noteEnd"/>マヒトサヒテ
+                        <note type="注" resp="#定家" place="right">或イナト</note><note type="注" resp="#定家" place="left">伊云御本云イナト</note>
+                        イネト<anchor type="noteEnd"/><anchor type="noteEnd"/>イハムカモ<anchor type="noteEnd" xml:id="note0017"/></l>
+                  </lg>
+               </div>
+            </div>
+            <div corresp="#石川郎女">
+               <div xml:id="旧国歌大観番号九七">
+                  <lg xml:id="manyo0097" type="短歌">
+                     <l xml:id="manyo0097_01"><lb/>三薦苅信濃乃真弓不引為而強佐由行事乎知
+                        <lb/>跡言莫君二<note type="割書" resp="#万葉集">郎女</note></l>
+                     
+                     <l xml:id="manyokun0097_01" corresp="#manyo0097_01"><lb/>
+                        <note type="注" resp="#定家" place="margin-head" corresp="#note0008">伊云依<milestone unit="br"/>御本<milestone unit="br"/>読入</note>
+                        ミコモカルシナノヽマユミヒカスシテヒサユワサ
+                        <note type="異訓" resp="#定家" place="right">ル</note>ヲ<anchor type="noteEnd"/>
+                        <note type="異訓" resp="#定家" place="right">ワサ</note>シル<anchor type="noteEnd"/>ト
+                        <note type="異訓" resp="#定家" place="right">ヲ</note>イ<anchor type="noteEnd"/>ハナクニ<anchor type="noteEnd" xml:id="note0008"/></l>
+                  </lg>
+               </div>
+
+               <div xml:id="旧国歌大観番号九八">
+                  <lg xml:id="manyo0098" type="短歌">
+                     <l xml:id="manyo0098_01"><lb/>梓弓引者随意依目友後心乎知勝奴鴨<note type="割書" resp="#万葉集">郎女</note></l>
+                     <l xml:id="manyokun0098_01" corresp="#manyo0098_01"><lb/>アツサユミヒカハネカヒニヨラメトモノチノコヽロヲシリカネヌカモ</l>
+                  </lg>
+               </div>
+            </div>
+            <div corresp="#久米禅師">
+               <div xml:id="旧国歌大観番号九九">
+                  <lg xml:id="manyo0099" type="短歌">
+                     <l xml:id="manyo0099_01"><lb/>梓弓都良絃取波氣引人者後心乎知人曽引<note type="割書" resp="#万葉集">禅師</note></l>
+                     <pb n="五一丁表"/>
+                     <l xml:id="manyokun0099_01" corresp="#manyo0099_01"><lb/>アツサユミツ<note type="異訓" resp="#定家" place="right">ラ</note>
+                        ル<anchor type="noteEnd"/>ヲトリハケヒクヒトハノチノコヽロヲシルヒトソヒク</l>
+                  </lg>
+               </div>
+               <div xml:id="旧国歌大観番号一〇〇">
+                  <lg xml:id="manyo0100" type="短歌">
+                     <l xml:id="manyo0100_01"><lb/>東人之荷向篋乃荷之緒尓毛妹情尓乗尓家留香聞<note type="割書" resp="#万葉集">禅師</note></l>
+                     <l xml:id="manyokun0100_01" corresp="#manyo0100_01"><lb/>アツマ<note type="異訓" resp="#定家" place="right">ツノヽ</note>ヒト<anchor type="noteEnd"/>
+                        <note type="注" resp="#定家" place="right">伊云御本云ニキノハラノヽニノヲニモ</note>サキノハコノカノヲニモ<anchor type="noteEnd"/>イモカコヽロニノリニケルカモ</l>
+                  </lg>
+               </div>
+            </div>
+            <div corresp="#大伴宿祢">
+               <div xml:id="旧国歌大観番号一〇一">
+                  <p style="text-indent:3em">大伴宿祢娉巨勢郎女時謌一首</p>
+                  <p style="text-indent:3em">大伴宿祢諱曰安麿也難波朝右大臣大紫大伴長徳</p>
+                  <p style="text-indent:3em">卿之第六子<note type="訓" resp="#定家" place="right">ナラノ</note>平城<anchor type="noteEnd"/>朝任大納言兼大将軍薨也</p>
+                  <lg xml:id="manyo0101" type="短歌">
+                     <l xml:id="manyo0101_01"><lb/>玉葛實不成樹尓波千磐破神曽著常云不成樹別尓</l>
+                     <pb n="五一丁裏" facs="https://www.iiif.ku-orcas.kansai-u.ac.jp/iiif/2/210464810%2F0050.tif/full/full/0/default.jpg"/>
+                     <l xml:id="manyokun0101_01" corresp="#manyo0101_01"><lb/>タマカツラミナラヌキニハチハヤフルカミソツクトイフナラヌキコトニ</l>
+                  </lg>
+               </div>
+            </div>
+            <div corresp="#巨勢郎女">
+               <div xml:id="旧国歌大観番号一〇二">
+                  <p style="text-indent:3em">巨勢郎女報贈謌一首<note type="割書" resp="#万葉集">即近江朝大納言巨勢人卿之女也</note></p>
+                  <lg xml:id="manyo0102" type="短歌">
+                     <l xml:id="manyo0102_01"><lb/><note type="合点" subtype="摘句" resp="#定家" place="right">〽タマカツラハナノミサキテナラサラハ</note>
+                        玉葛花耳開而不成有者誰戀尓有目吾孤非念乎<anchor type="noteEnd"/></l>
+                     <l xml:id="manyokun0102_01" corresp="#manyo0102_01"><lb/>タマカツラハナノミサキテミ
+                        <note type="合点" subtype="異訓" resp="#定家" place="right" corresp="#note0018">伊〽ナラスア
+                           <note type="合点" subtype="異訓" resp="#定家" place="right" corresp="#note0019">〽ラ</note>
+                           レ<anchor type="noteEnd" xml:id="note0019"/>ハ</note>ナラスハ
+                           <anchor type="noteEnd" xml:id="note0018"/>タカコヒニアラメワカコヒオモフヲ</l>
+                  </lg>
+               </div>
+            </div>
+            <div corresp="#天武天皇">
+               <div xml:id="旧国歌大観番号一〇三">
+                  <p>明日香清御原宮御宇天皇代<note type="割書" resp="#万葉集">天渟<note type="合点" subtype="異文" resp="#定家" place="right">
+                    〽名</note>中<anchor type="noteEnd"/>原<note type="訓" resp="#定家" place="right">オキノ</note>
+                     瀛真<anchor type="noteEnd"/>人天皇<milestone unit="br"/>謚曰天武天皇</note></p>
+                  <p style="text-indent:3em">天皇賜藤原夫人御歌一首</p>
+                  <lg xml:id="manyo0103" type="短歌">
+                     <l xml:id="manyo0103_01"><lb/>吾里尓大雪落有大原乃古尓之郷尓落巻者後</l>
+                     <pb n="五二丁表"/>
+                     <l xml:id="manyokun0103_01" corresp="#manyo0103_01"><lb/>ワカサトニオホユキフレリオホハラノ
+                        <note type="注" resp="#定家" place="right">或本フレル</note>フリニシ<anchor type="noteEnd"/>サトニフラマクハノチ</l>
+                  </lg>
+               </div>
+            </div>
+            <div corresp="#藤原夫人">
+               <div xml:id="旧国歌大観番号一〇四">
+                  <p style="text-indent:3em">藤原夫人奉和歌一首</p>
+                  <lg xml:id="manyo0104" type="短歌">
+                     <l xml:id="manyo0104_01"><lb/>吾岡之於可美尓言而令落雪之摧之彼所尓塵家武</l>
+                     <l xml:id="manyokun0104_01" corresp="#manyo0104_01"><lb/>ワカヲカノオカミニイヒテフラシ
+                        <note type="注" resp="#定家" place="right">伊云御本云<milestone unit="br"/>メシ</note>ムル<anchor type="noteEnd"/>
+                        ユキノクタ<note type="注" resp="#定家" place="right">或ケノ</note>ケテ<anchor type="noteEnd"/>ソ
+                        <note type="注" resp="#定家" place="right">コ歟</note>ラ<anchor type="noteEnd"/>ニチルカモ</l>
+                  </lg>
+               </div>
+            </div>
+            <div corresp="#大伯皇女">
+               <div xml:id="旧国歌大観番号一〇五">
+                  <p>藤原宮御宇高天原廣野姫天皇代</p>
+                  <p style="text-indent:3em">天皇謚曰持統天皇元年丁亥十一<note type="注" resp="#定家" place="right">月歟</note>年<anchor type="noteEnd"/>譲位軽太子</p>
+                  <p style="text-indent:3em">尊号曰太上天皇也</p>
+
+                  <pb n="五二丁裏" facs="https://www.iiif.ku-orcas.kansai-u.ac.jp/iiif/2/210464810%2F0051.tif/full/full/0/default.jpg"/>
+                  <p style="text-indent:3em"><note type="注" resp="#定家" place="right">天武第三子母大田皇女天智女</note>大津皇子<anchor type="noteEnd"/>
+                     竊下於伊勢神宮上来時<note type="注" resp="#定家" place="right" corresp="#note0006">伊勢　天武第一女</note>
+                     <note type="注" resp="#定家" place="left" corresp="#note0007">母同大津皇子</note>大
+                     <note type="合点" subtype="異文" resp="#定家" place="right" corresp="#note0009">〽来</note>伯<anchor type="noteEnd" xml:id="note0009"/>
+                     皇女<anchor type="noteEnd" xml:id="note0006"/><anchor type="noteEnd" xml:id="note0007"/>御作歌二首</p>
+                  <lg xml:id="manyo0105" type="短歌">
+                     <l xml:id="manyo0105_01"><lb/>吾勢祜乎倭邊遣登佐夜深而鷄鳴露尓吾立所霑之</l>
+                     <l xml:id="manyokun0105_01" corresp="#manyo0105_01"><lb/><note type="合点" subtype="摘句" resp="#定家" place="right">〽アカツキツユ</note>ワカセコヲ
+                        ヤマトヘヤルトサヨフケテアカツキツユニワカタチヌレ<note type="合点" subtype="異訓" resp="#定家" place="right">〽ヌ</note>シ<anchor type="noteEnd"/><anchor type="noteEnd"/></l>
+                  </lg>
+               </div>
+               <div xml:id="旧国歌大観番号一〇六">
+                  <lg xml:id="manyo0106" type="短歌">
+                     <l xml:id="manyo0106_01"><lb/>二人行杼去過難寸秋山乎如何君之獨越武</l>
+                     <l xml:id="manyokun0106_01" corresp="#manyo0106_01"><lb/>フタリ<note type="注" resp="#定家" place="right">伊云御本云ユ</note>
+                        <note type="注" resp="#定家" place="right">或ユ</note>イ<anchor type="noteEnd"/><anchor type="noteEnd"/>
+                        ケトユキスキカタキアキヤマヲイカテカキミカヒトリ<note type="注" resp="#定家" place="right">或コエケム</note>コユラム<anchor type="noteEnd"/></l>
+                  </lg>
+               </div>
+            </div>
+            <div corresp="#大津皇子">
+               <div xml:id="旧国歌大観番号一〇七">
+                  <p style="text-indent:3em">大津皇子贈石川郎女御歌一首</p>
+                  <lg xml:id="manyo0107" type="短歌">
+                     <l xml:id="manyo0107_01"><lb/>足日木乃山之四付二妹待跡吾立所沾山之四附二</l>
+                     <pb n="五三丁表"/>
+                     <l xml:id="manyokun10107_01" corresp="#manyo0107_01"><lb/>
+                        <note type="合点" subtype="摘句" resp="#定家" place="right">〽山の溜</note>アシヒキノ
+                        ヤマノシツクニイモマツトワレタチヌレヌヤマノシツクニ<anchor type="noteEnd"/></l>
+                  </lg>
+               </div>
+            </div>
+            <div corresp="#石川郎女">
+               <div xml:id="旧国歌大観番号一〇八">
+                  <p style="text-indent:3em">石川郎女奉和哥一首</p>
+                  <lg xml:id="manyo0108" type="短歌">
+                     <l xml:id="manyo0108_01">
+                        <lb/><seg type="ruby"><seg type="rb">吾乎待跡君之沾計武足日木能山之四附二成益物乎</seg>
+                           <seg type="rt" rend="right">ワレヲマツトキミカヌレケムアシヒキノヤマノシツクニナラマシモノヲ</seg></seg></l>
+                     <l xml:id="manyokun0108_01" corresp="#manyo0108_01"><lb/>ワレヲマツトキミカヌレケムアシヒキノヤマノシツクニナラマシモノヲ</l>
+                  </lg>
+               </div>
+            </div>
+            <div corresp="#大津皇子">
+               <div xml:id="旧国歌大観番号一〇九">
+                  <p style="text-indent:3em">大津皇子竊婚石川女郎時津守連通占露</p>
+                  <p style="text-indent:3em">其事皇子御作歌一首<note type="割書" resp="#万葉集">未詳</note></p>
+                  <lg xml:id="manyo0109" type="短歌">
+                     <l xml:id="manyo0109_01"><lb/>大船之津守之占尓将告登波益為尓知而我二人宿之</l>
+                     <pb n="五三丁裏" facs="https://www.iiif.ku-orcas.kansai-u.ac.jp/iiif/2/210464810%2F0052.tif/full/full/0/default.jpg"/>
+                     <l xml:id="manyokun0109_01" corresp="#manyo0109_01"><lb/>オホフネノツモリノウラニツ
+                        <note type="異訓" resp="#定家" place="right">ケ</note>キ<anchor type="noteEnd"/>ムトハマサシニシリテワカフタリネシ</l>
+                  </lg>
+               </div>
+            </div>
+            <div corresp="#日並皇子">
+               <div xml:id="旧国歌大観番号一一〇">
+                  <p style="text-indent:3em">日並皇子尊贈賜石川女郎御歌一首<note type="割書" resp="#万葉集">女郎字曰大名<milestone unit="br"/>児也</note></p>
+                  <lg xml:id="manyo0110" type="短歌">
+                     <l xml:id="manyo0110_01"><lb/><note type="合点" subtype="摘句" resp="#定家" place="right">〽カルクサノツカノアヒタ</note>
+                        大名児彼方野邊尓苅草乃束之間毛吾忘目八<anchor type="noteEnd"/></l>
+                     <l xml:id="manyokun0110_01" corresp="#manyo0110_01"><lb/>オホナコ<note type="注" resp="#定家" place="right">伊云御本云
+                        <milestone unit="br"/>ノ</note>カ<anchor type="noteEnd"/>ヲチカタノヘニカルクサノツカノアヒタモワレワスレメヤ</l>
+                  </lg>
+               </div>
+            </div>
+            <div corresp="#弓削皇子">
+               <div xml:id="旧国歌大観番号一一一">
+                  <p style="text-indent:3em">幸于吉野宮時<note type="注" resp="#定家" place="right">母同大津皇子</note>
+                     弓削皇子<anchor type="noteEnd"/>贈與額田王歌一首</p>
+                  <lg xml:id="manyo0111" type="短歌">
+                     <l xml:id="manyo0111_01"><lb/>古尓戀流鳥鴨弓絃葉乃三井能上従鳴渡逝久</l>
+                     <l xml:id="manyokun0111_01" corresp="#manyo0111_01"><lb/><note type="合点" subtype="摘句" resp="#定家" place="right">
+                        〽ユツルハノミヰノウヘヨリ</note>イニシヘニコフルトリカモユツルハノミヰノウヘヨリナキワタリユク<anchor type="noteEnd"/></l>
+                  </lg>
+               </div>
+            </div>
+            <pb n="五四丁表"/>
+            <div corresp="#額田王">
+               <div xml:id="旧国歌大観番号一一二">
+                  <p style="text-indent:3em">額田王奉和歌一首<note type="割書" resp="#万葉集">従倭京進之</note></p>
+                  <lg xml:id="manyo0112" type="短歌">
+                     <l xml:id="manyo0112_01"><lb/><note type="注" resp="#定家" place="head" corresp="#note0010">伊云依假<milestone unit="br"/>名本読入</note>古尓戀良武鳥者霍公鳥<note type="注" resp="#定家" place="right">伊云御本云<milestone unit="br"/>益</note>
+                        盖<anchor type="noteEnd"/>哉鳴之吾<note type="合点" subtype="異文" resp="#定家" place="right">〽恋</note>念<anchor type="noteEnd"/>
+                        流<note type="注" resp="#定家" place="right">伊云御本云<milestone unit="br"/>暮</note>基<anchor type="noteEnd"/>騰<anchor type="noteEnd" xml:id="note0010"/></l>
+                     <l xml:id="manyokun0112_01" corresp="#manyo0112_01"><lb/>イニシヘニコフラムトリハホトヽキス
+                        <note type="注" resp="#定家" place="right">伊云御本云マシテ</note><note type="注" resp="#定家" place="right">今案マシテ</note>ケタシ<anchor type="noteEnd"/><anchor type="noteEnd"/>
+                        ヤナキシワカ<note type="合点" subtype="異訓" resp="#定家" place="right">〽コフル</note>オモヘル<anchor type="noteEnd"/>コト</l>
+                  </lg>
+               </div>
+               <div xml:id="旧国歌大観番号一一三">
+                  <p style="text-indent:3em">従吉野折取蘿生松折柯遣時額田王奉入歌一首</p>
+                  <lg xml:id="manyo0113" type="短歌">
+                     <l xml:id="manyo0113_01"><lb/>三吉野乃玉松之枝者波思吉香聞君之御言乎持而加欲
+                        <lb/>波久</l>
+                     <l xml:id="manyokun0113_01" corresp="#manyo0103_01"><lb/>ミヨシノヽタマヽツ<note type="注" resp="#定家" place="right">伊云御本云
+                        <milestone unit="br"/>カ</note>ノ<anchor type="noteEnd"/>エハヽシキカモキミカミコトヲモチテカヨハ
+                        <note type="注" resp="#定家" place="right">或本ス</note>ク<anchor type="noteEnd"/></l>
+                  </lg>
+               </div>
+            </div>
+            <pb n="五四丁裏" facs="https://www.iiif.ku-orcas.kansai-u.ac.jp/iiif/2/210464810%2F0053.tif/full/full/0/default.jpg"/>
+            <div corresp="#但馬皇女">
+               <div xml:id="旧国歌大観番号一一四">
+                  <p style="text-indent:3em"><note type="注" resp="#定家" place="right">天武第四女　母内大臣鎌−女氷上娘</note>但馬皇女<anchor type="noteEnd"/>
+                     在<note type="注" resp="#定家" place="left">天武第二子母尼子</note>高市皇子<anchor type="noteEnd"/>
+                     宮時思<note type="注" resp="#定家" place="right">天武第五皇子</note><note type="注" resp="#定家" place="left">母大臣蘇我明兄女</note>
+                     穂積皇子<anchor type="noteEnd"/><anchor type="noteEnd"/>御作謌</p>
+                  <p style="text-indent:3em">一首</p>
+                  <lg xml:id="manyo0114" type="短歌">
+                     <l xml:id="manyo0114_01"><lb/><note type="合点" subtype="摘句" resp="#定家" place="right">〽穂向ノヨスルカタヨリ</note>
+                        秋田之穂向乃所縁君尓因奈名事痛有登母<anchor type="noteEnd"/></l>
+                     <l xml:id="manyokun0114_01" corresp="#manyo0114_01"><lb/>アキノタノホムケノヨスルカタヨリニキミニヨリナヽ
+                           <note type="注" resp="#定家" place="right">或コチタカリトモ</note>
+                        <note type="注" resp="#定家" place="left">伊云コトカタクトモ</note><note type="注" resp="#定家" place="left">御本云コトタカフトモ</note>
+                        コト<sic>カタ</sic><corr resp="#定家" rend="right">タカ</corr>クトモ<anchor type="noteEnd"/><anchor type="noteEnd"/><anchor type="noteEnd"/></l>
+                  </lg>
+               </div>
+               <div xml:id="旧国歌大観番号一一五">
+                  <p style="text-indent:3em"><note type="注" resp="#定家" place="right">叙一品　知太政官事　　霊亀元年七月薨</note>
+                     勅叙積皇子<anchor type="noteEnd"/>遣近江志賀山寺時但馬皇女御作</p>
+                  <p style="text-indent:3em">歌一首</p>
+                  <lg xml:id="manyo0115" type="短歌">
+                     <l xml:id="manyo0115_01"><lb/>遺居而戀管不有者追及武道之阿廻尓標結吾勢</l>
+                     <pb n="五五丁表"/>
+                     <l xml:id="manyokun0115_01" corresp="#manyo0115_01">
+                        <lb/>ヲクレヰテコヒツヽアラスハヲヒユカムミチノクマワニ<note type="注" resp="#定家" place="right">伊云御本云シメハユヒコセ</note>
+                        シメユヘワカセ<anchor type="noteEnd"/></l>
+                  </lg>
+               </div>
+               <div xml:id="旧国歌大観番号一一六">
+                  <p style="text-indent:3em">但馬皇女在高市皇子宮時竊接穂積皇子事</p>
+                  <p style="text-indent:3em">既形而御作歌一首</p>
+                  <lg xml:id="manyo0116" type="短歌">
+                     <l xml:id="manyo0116_01"><lb/>人事乎繁美許知痛美己<note type="注" resp="#定家" place="right">伊云御本云無母字</note>
+                        母<anchor type="noteEnd"/>世尓未渡朝川渡</l>
+                     <l xml:id="manyokun0116_01" corresp="#manyo0116_01"><lb/>ヒトコトヲシケミ
+                        <note type="注" resp="#定家" place="left">伊云コトイタミ</note>コチ<note type="注" resp="#定家" place="right">或本タミ</note>フミ<anchor type="noteEnd"/><anchor type="noteEnd"/>
+                        オ<note type="注" resp="#定家" place="right">伊云御本云<milestone unit="br"/>〽ノカ</note>ヒノ<anchor type="noteEnd"/>ヨニイマタワタラヌアサカハワタル</l>
+                  </lg>
+               </div>
+            </div>
+            <div corresp="#舎人皇子">
+               <div xml:id="旧国歌大観番号一一七">
+                  <p style="text-indent:3em"><note type="注" resp="#定家" place="right">天武第八皇子母新田部皇女天智女叙一品</note>舎人皇子<anchor type="noteEnd"/>御哥一首</p>
+                  <lg xml:id="manyo0117" type="短歌">
+                     <l xml:id="manyo0117_01"><lb/>大夫哉片戀将為跡嘆友鬼乃益卜雄尚戀二家里</l>
+                     <pb n="五五丁裏" facs="https://www.iiif.ku-orcas.kansai-u.ac.jp/iiif/2/210464810%2F0054.tif/full/full/0/default.jpg"/>
+                     <l xml:id="manyokun0117_01" corresp="#manyo0117_01"><lb/>マスラヲヤカタコヒセムトナケヽトモヲニノマスラヲナ
+                        <note type="異訓" resp="#定家" place="right">ヲ</note>ホ<anchor type="noteEnd"/>コヒニケリ</l>
+                  </lg>
+               </div>
+            </div>
+            <div corresp="#舎人娘子">
+               <div xml:id="旧国歌大観番号一一八">
+                  <p style="text-indent:3em">舎人娘子奉和謌一首</p>
+                  <lg xml:id="manyo0118" type="短歌">
+                     <l xml:id="manyo0118_01">
+                       <lb/><seg type="ruby"><seg type="rb">嘆管大夫之戀礼許曽吾髪乃
+                        <note type="注" resp="#定家" place="right">伊云依御本案之漬字歟</note>須<anchor type="noteEnd"/>而奴礼計礼</seg>
+                        <seg type="rt" rend="left">ナケキツヽマスラヲノコヒシケレハコソワカ
+                           <note type="異訓" resp="#定家" place="right">カミユイノ</note>ユフカミノ<anchor type="noteEnd"/>
+                              マチテヌレケ<add resp="#定家" place="right">ム</add>レ</seg></seg></l>
+                     <l xml:id="manyokun0118_01" corresp="#manyo0118_01">
+                       <lb/><note type="注" resp="#定家" place="right">伊云御本伊云假名本云</note>
+                        ナケキツヽマスラヲノカクコフレコソワカユフカミノマチテヌレケレ<anchor type="noteEnd"/></l>
+                  </lg>
+               </div>
+            </div>
+            <div corresp="#弓削皇子">
+               <div xml:id="旧国歌大観番号一一九">
+                  <p style="text-indent:3em">弓削皇子思<note type="注" resp="#定家" place="left">天武第二女母同穂積皇子　朱鳥元遣伊勢神宮</note>
+                     記皇女<anchor type="noteEnd"/>御歌四首</p>
+                  <lg xml:id="manyo0119" type="短歌">
+                     <l xml:id="manyo0119_01"><lb/><note type="注" resp="#定家" place="right">伊云御本云吉</note>芳<anchor type="noteEnd"/>野河逝瀬之早見須臾毛不通事無有巨勢濃香問</l>
+                     <l xml:id="manyokun0119_01" corresp="#manyo0119_01"><lb/>ヨシノカハユクセヲハヤミシハラクモタユルコトナクアリコセヌカモ</l>
+                  </lg>
+               </div>
+               <pb n="五六丁表"/>
+               <div xml:id="旧国歌大観番号一二〇">
+                  <lg xml:id="manyo0120" type="短歌">
+                     <l xml:id="manyo0120_01"><lb/>吾妹児尓戀乍不有者秋芽之喚而散去流花尓有猿尾</l>
+                     <l xml:id="manyokun0120_01" corresp="#manyo0120_01"><lb/>ワ<note type="合点" subtype="異訓" resp="#定家" place="right">〽カ</note>
+                        キ<anchor type="noteEnd"/><note type="合点" subtype="異訓" resp="#定家" place="right">〽セ</note>モ<anchor type="noteEnd"/>
+                        コニコヒツヽアラスハアキハキノサキテチリヌルハナ<note type="合点" subtype="異訓" resp="#定家" place="right">伊云〽ニアラマシヲ</note>
+                        ヽラマシヲ<anchor type="noteEnd"/></l>
+                  </lg>
+               </div>
+               <div xml:id="旧国歌大観番号一二一">
+                  <lg xml:id="manyo0121" type="短歌">
+                     <l xml:id="manyo0121_01"><lb/>暮去者塩来奈武住吉乃淺鹿乃浦尓玉藻苅手名</l>
+                     <l xml:id="manyokun0121_01" corresp="#manyo0121_01"><note type="合点" subtype="摘句" resp="#定家" place="right">〽すみよしのあさかのうらにたまもかりてな</note>
+                        ユフサレハシホミチキナムスミヨシノアサカノウラニタマモカリテナ<anchor type="noteEnd"/></l>
+                  </lg>
+               </div>
+               <div xml:id="旧国歌大観番号一二二">
+                  <lg xml:id="manyo0122" type="短歌">
+                     <l xml:id="manyo0122_01"><lb/>大船之泊流登麻里能<note type="異文" resp="#定家" place="right">絶</note>記<anchor type="noteEnd"/>多日二物念痩奴人能児故尓</l>
+                     <l xml:id="manyokun0122_01" corresp="#manyo0122_01"><lb/>オホフネノトマルトマリノタユタヒニモノオモヒヤセヌヒトノコユへニ</l>
+                  </lg>
+               </div>
+            </div>
+            <div corresp="#三方沙弥">
+               <div xml:id="旧国歌大観番号一二三">
+                  <p style="text-indent:3em"><note type="訓" resp="#定家" place="right">ミカタノ</note>三方<anchor type="noteEnd"/>沙弥娶園臣生羽之女未羅幾時臥病作歌三首</p>
+                  <pb n="五六丁裏" facs="https://www.iiif.ku-orcas.kansai-u.ac.jp/iiif/2/210464810%2F0055.tif/full/full/0/default.jpg"/>
+                  <lg xml:id="manyo0123" type="短歌">
+                     <l xml:id="manyo0123_01"><lb/>多氣婆奴礼多香根者長寸妹之髪比来不見尓<note type="注" resp="#定家" place="right">掻伊</note>格<anchor type="noteEnd"/>入津
+                        <lb/>良武香<note type="割書" resp="#万葉集">三方沙弥</note></l>
+                     <l xml:id="manyokun0123_01" corresp="#manyo0123_01"><lb/>タケハヌレタカネハナカキイモカヽミコノコロ
+                        <note type="注" resp="#定家" place="right" corresp="#note0026">或ミネハカキツ</note>ミヌニ<note type="注" resp="#定家" place="right" corresp="#note0027">伊云御本云<milestone unit="br"/>カキイレツラムカ</note>
+                        ミタリツ<anchor type="noteEnd" xml:id="note0026"/>ラムカ<anchor type="noteEnd" xml:id="note0027"/></l>
+                  </lg>
+               </div>
+            </div>
+            <div corresp="#園臣生羽女">
+               <div xml:id="旧国歌大観番号一二四">
+                  <lg xml:id="manyo0124" type="短歌">
+                     <l xml:id="manyo0124_01"><lb/>人皆者今波長跡多計登雖言君之見師髪乱有等母<note type="割書" resp="#万葉集">娘子</note></l>
+                     <l xml:id="manyokun0124_01" corresp="#manyo0124_01"><lb/>ヒトハミナイマハナカシトタケトイヘトキミカミシカミヽタレタレトモ</l>
+                  </lg>
+               </div>
+            </div>
+            <div corresp="#三方沙弥">
+               <div xml:id="旧国歌大観番号一二五">
+                  <lg xml:id="manyo0125" type="短歌">
+                     <l xml:id="manyo0125_01"><lb/>橘之蔭履路乃八衢尓物乎曽念妹尓不相而<note type="割書" resp="#万葉集">三方沙弥</note></l>
+                     <l xml:id="manyokun0125_01"><lb/><note type="合点" subtype="摘句" resp="#定家" place="right">〽橘乃カケフムミチ</note>
+                        タチハナノカケフムミチノヤチマタニモノヲソオモフイモニアハスシテ<anchor type="noteEnd"/></l>
+                  </lg>
+               </div>
+            </div>
+            <pb n="五七丁表"/>
+            <div corresp="#石川女郎">
+               <div xml:id="旧国歌大観番号一二六">
+                  <p style="text-indent:3em">石川女郎贈大伴宿祢田主歌一首<note type="割書" resp="#万葉集">即佐保大納言大伴卿之第<milestone unit="br"/>二子母曰巨勢朝臣也</note></p>
+                  <lg xml:id="manyo0126" type="短歌">
+                     <l xml:id="manyo0126_01"><lb/>遊士跡吾者聞流乎屋戸不借吾乎還利於曽能風流士</l>
+                     <l xml:id="manyokun0126_01" corresp="#manyo0126_01"><lb/><note type="注" resp="#定家" place="right">或タハレヲトハ</note>
+                        アソヒヲトワ<anchor type="noteEnd"/>レハキケルヲヤトカサスワレヲカヘセリヲソノ<note type="注" resp="#定家" place="right">伊云タハフレヲ</note>
+                        タハレヲ<anchor type="noteEnd"/></l>
+                  </lg>
+                  <p style="text-indent:3em">大伴<note type="送り" resp="#定家" place="right">ノ</note>田主字曰仲郎
+                     <note type="送り" resp="#定家" place="right">ト</note>容姿佳艶<note type="送り" resp="#定家" place="right">ニシテ</note>
+                     風流秀絶<note type="送り" resp="#定家" place="right"><note type="注" resp="#定家" place="right" corresp="#note0020">同本云御本云無<milestone unit="br"/>ヿ字</note>ナリ<anchor type="noteEnd" xml:id="note0020"/></note>見人聞</p>
+                  <p style="text-indent:3em">者靡不歎息也時有石川女郎<note type="訓" resp="#定家" place="right">ミ</note>自<anchor type="noteEnd"/>成雙栖之感</p>
+                  <p style="text-indent:3em">恒悲獨守之難<note type="送り" resp="#定家" place="right">ヲ</note>
+                     意<note type="送り" resp="#定家" place="right">ニ</note>欲<note type="送り" resp="#定家" place="right">ニ</note>
+                     寄<note type="送り" resp="#定家" place="right">ト</note>書<note type="送り" resp="#定家" place="right">ヲ</note>
+                     未逢良信<note type="送り" resp="#定家" place="right">ニ</note>爰作</p>
+                  <p style="text-indent:3em">方便<note type="送り" resp="#定家" place="right">ヲ</note>而<note type="異文" resp="#定家" place="right">与</note>似<anchor type="noteEnd"/>
+                     賤嫗己提堝子而到寝側<note type="送り" resp="#定家" place="right">ニ</note><note type="訓" resp="#定家" place="right" corresp="#note0021">ムセヒ</note>哽<anchor type="noteEnd" xml:id="note0021"/>
+                     音<note type="送り" resp="#定家" place="right">ヲ</note>
+                     <note type="訓" resp="#定家" place="right" corresp="#note0022">ヌキアシヽ</note>蹢足<anchor type="noteEnd" xml:id="note0022"/></p>
+                  <pb n="五七丁裏" facs="https://www.iiif.ku-orcas.kansai-u.ac.jp/iiif/2/210464810%2F0056.tif/full/full/0/default.jpg"/>
+                  <p style="text-indent:3em">叩戸諮曰東隣<note type="送り" resp="#定家" place="right">ノ</note>貧女将取火
+                     <note type="送り" resp="#定家" place="right">ヲ</note>来<note type="送り" resp="#定家" place="right">ト</note>矣於是仲郎暗</p>
+                  <p style="text-indent:3em"><note type="異文" resp="#定家" place="right" corresp="#note0023">裏</note>悲<anchor type="noteEnd" xml:id="note0023"/>非識冒隠之形慮外不堪拘接之計
+                     <note type="訓" resp="#定家" place="right">マヽ</note>任<anchor type="noteEnd"/>念</p>
+                  <p style="text-indent:3em">取火就跡歸去也<note type="訓" resp="#定家" place="right">アケテノチ</note>明後<anchor type="noteEnd"/>女郎既恥自媒之可愧復</p>
+                  <p style="text-indent:3em">恨心契之<note type="訓" resp="#定家" place="right">コトヲ</note>弗<anchor type="noteEnd"/>果因作斯謌以贈諺戯焉</p>
+               </div>
+            </div>
+            <div corresp="#大伴宿祢">
+               <div xml:id="旧国歌大観番号一二七">
+                  <p style="text-indent:3em">大伴宿祢田主報贈歌一首</p>
+                  <lg xml:id="manyo0127" type="短歌">
+                     <l xml:id="manyo0127_01"><lb/>遊士尓吾者有家里屋戸不借令還吾曽風流士者有</l>
+                     <l xml:id="manyokun0127_01" corresp="#manyo0127_01"><lb/>ア<note>伊云御本云<milestone unit="br"/>ハレ</note>ソヒ
+                        <anchor type="noteEnd"/>ヲニワレハアリケリヤトカサスカヘセルワレソタハレヲニハアル</l>
+                  </lg>
+               </div>
+            </div>
+            <pb n="五八丁表"/>
+            <div corresp="#石川女郎">
+               <div xml:id="旧国歌大観番号一二八">
+                  <p style="text-indent:3em">同石川女郎更贈大伴田主中郎哥一首</p>
+                  <lg xml:id="manyo0128" type="短歌">
+                     <l xml:id="manyo0128_01"><lb/>吾聞之耳尓好似葦若末乃足痛吾勢勤多<note type="注" resp="#定家" place="left">伊云扶倍</note>校位<anchor type="noteEnd"/>思</l>
+                  </lg>
+                  <p style="text-indent:3em">右依中郎足疾贈此歌問<note type="注" resp="#定家" place="right">伊云御本云訊</note>
+                     <note type="訂正" resp="#定家" place="left">訊</note>誶<anchor type="noteEnd"/><anchor type="noteEnd"/>也</p>
+               </div>
+               <div xml:id="旧国歌大観番号一二九">
+                  <p style="text-indent:2em">大伴皇子宮侍石川女郎贈大伴宿祢<note type="異文" resp="#定家" place="left">奈</note>宿<anchor type="noteEnd"/>奈麿</p>
+                  <p style="text-indent:2em">歌一首</p>
+                  <p style="text-indent:3em">女郎字曰山田郎女也宿奈麿宿祢者大納言</p>
+                  <p style="text-indent:3em">兼大将軍卿第三子</p>
+           <pb n="五八丁裏" facs="https://www.iiif.ku-orcas.kansai-u.ac.jp/iiif/2/210464810%2F0057.tif/full/full/0/default.jpg"/>
+                  <lg xml:id="manyo0129" type="短歌">
+                     <l xml:id="manyo0129_01"><lb/>古之嫗尓為而也如此許戀尓那沈如手童兒<note type="割書" resp="#万葉集">一云戀乎大尓忍金
+                        <milestone unit="br"/>手武多和良波乃如<milestone unit="br"/>思金</note></l>
+                     <l xml:id="manyokun0129_01" corresp="#manyo0129_01"><lb/>イニシヘノヲムナニシテヤカクハカリ
+                        <note type="注" resp="#定家" place="left" corresp="#note0028">同本云御本云コヒニシツマムテワラ<milestone unit="br"/>ハノコト</note>コヒニシ
+                        <note type="合点" subtype="異訓" resp="#定家" place="left" corresp="#note0030">〽マム</note>ツメ<anchor type="noteEnd" xml:id="note0030"/>ル
+                        <note type="注" resp="#定家" place="right" corresp="#note0029">伊云テハラハノコト</note>テワラハノコト<anchor type="noteEnd" xml:id="note0028"/><anchor type="noteEnd" xml:id="note0029"/></l>
+                  </lg>
+               </div>
+            </div>
+            <div corresp="#長皇子">
+               <div xml:id="旧国歌大観番号一三〇">
+                  <p style="text-indent:3em">長皇子與皇弟御歌一首</p>
+                  <lg xml:id="manyo0130" type="短歌">
+                     <l><lb/><note type="注" resp="#定家" place="left">伊云御本云ニフノカハセヲハワタラテユク／＼ト</note>丹生乃河瀬者不渡而由久遊久登<anchor type="noteEnd"/>
+                        戀痛吾弟乞通来<note type="注" resp="#定家" place="right">伊云袮</note>尓<anchor type="noteEnd"/></l>
+                     <l><lb/></l>
+                  </lg>
+               </div>
+            </div>
+            <div corresp="#柿本人麻呂">
+               <div xml:id="旧国歌大観番号一三一">
+                  <p style="text-indent:3em">柿本朝臣人麿従石見國別妻上来時歌二首<note type="割書" resp="#万葉集">并短哥</note></p>
+                  <ab xml:id="manyo0131" type="長歌">
+                     <lb/><seg type="ruby"><seg type="rb"><note type="合点" subtype="摘句" resp="#定家" place="right" corresp="#note0024">〽石見乃海つのヽうらわ</note>
+                        石見乃海角乃浦廻乎浦無等人社見良目瀉<note type="異文" resp="#定家" place="right">無</note>无<anchor type="noteEnd"/>等
+                        <anchor type="noteEnd" xml:id="note0024"/><note type="割書" resp="#万葉集">一云礒<milestone unit="br"/>无登</note></seg>
+                        <lb/><seg type="rt" rend="left">イハミノウミツノヽウラハ<note type="異訓" resp="#定家" place="right">ヲ</note>
+                           ニ<anchor type="noteEnd"/>ウラナシトヒトコソミラメカタナシト</seg></seg>
+                     <lb/><seg type="ruby"><seg type="rb">人社見良目能咲八師浦者無友縦畫屋師滷者<note type="割書" resp="#万葉集">一云礒者</note>無勒</seg>
+                        <lb/><seg type="rt" rend="left">ヒトコソミラメヨシヱヤシウラハナクトモヨシヱヤシシカタハナクトモ</seg></seg>
+                     <pb n="五九丁表" facs="https://www.iiif.ku-orcas.kansai-u.ac.jp/iiif/2/210464810%2F0057.tif/full/full/0/default.jpg"/>
+                     <lb/><seg type="ruby"><seg type="rb">鯨魚取海邊乎指而<note type="注" resp="#定家" place="right">ニキ</note>和<anchor type="noteEnd"/>多豆乃荒礒乃上尓香青生玉藻</seg>
+                     <lb/><seg type="rt" rend="left">クチラトルアマヘヲサシテワタツミノアライソノウヘニカアオヽフルタマモ</seg></seg>
+                     <lb/><seg type="ruby"><seg type="rb">息津藻朝羽振風社依米夕羽振流浪社来縁浪之共</seg>
+                     <lb/><seg type="rt" rend="left">オキツモアサハフリカセコソヨラメユフハフルナミコソキヨレナミノトモ</seg></seg>
+                     <lb/><seg type="ruby"><seg type="rb">彼<note type="注" resp="#定家" place="right">伊云御本云無縁字</note>縁<anchor type="noteEnd"/>此縁依王藻成依宿之妹乎
+                        <note type="割書" resp="#万葉集">一云波之伎余思<milestone unit="br"/>妹之手本乎</note>露霜乃置而</seg>
+                     <lb/><seg type="rt" rend="left">カシコモコヽモタマモナスヤトリシイモヲツユシモノヲキテ</seg></seg>
+                     <lb/><seg type="ruby"><seg type="rb">之来者此道乃八十隈毎萬段顧為騰弥遠尓里者放奴</seg>
+                     <lb/><seg type="rt" rend="left">シクレハコノミチノヤソクマコトニヨロツタヒカヘリミスレトイヤトヲニサトハヽナレヌ</seg></seg>
+                     <lb/><seg type="ruby"><seg type="rb">益高尓山毛越来奴夏草之念思奈要而志怒布良武</seg>
+                     <lb/><seg type="rt" rend="left">イヤタカニヤマモコエキヌナツクサノオモヒシナエテシヌフラム</seg></seg>
+                     <lb/><seg type="ruby"><seg type="rb">妹之<note type="注" resp="#定家" place="right">伊云御本云内</note>門<anchor type="noteEnd"/>将見靡此山</seg>
+                        <lb/><seg type="rt" rend="left">イモカヽトミムナヒケコノヤマ</seg></seg>
+                  </ab>
+               </div>
+               <div xml:id="旧国歌大観番号一三二">
+                  <p style="text-indent:3em">反歌二首</p>
+                  <pb n="五九丁裏" facs="https://www.iiif.ku-orcas.kansai-u.ac.jp/iiif/2/210464810%2F0058.tif/full/full/0/default.jpg"/>
+                  <lg xml:id="manyo0132" type="短歌">
+                     <l xml:id="manyo0132_01"><lb/>石見乃也高角山之木際従我振袖乎妹見都良武香</l>
+                     <l xml:id="manyokun0132_01" corresp="#manyo0132_01"><lb/><note type="合点" subtype="摘句" resp="#定家" place="right">〽イハミノヤタカツノ山ハカフルソテ</note>
+                        イハミノヤタカツノヤマノコノマヨリワカフルソテヲイモミツ<note type="合点" subtype="異訓" resp="#定家" place="right">或〽ラムカ</note>
+                        ルカモ<anchor type="noteEnd"/><anchor type="noteEnd"/></l>
+                  </lg>
+               </div>
+               <div xml:id="旧国歌大観番号一三三">
+                  <lg xml:id="manyo0133" type="短歌">
+                     <l xml:id="manyo0133_01"><lb/><note type="合点" subtype="摘句" resp="#定家" place="right">〽サヽノハヽミ山モサヤニ</note>
+                        小竹之葉者三山毛清尓乱友吾者妹思別来礼婆<anchor type="noteEnd"/></l>
+                     <l xml:id="manyokun0133_01" corresp="#manyo0133_01"><lb/>サヽノハヽミヤマモサヤニミタルトモワレハイモオモフワカレキヌレハ</l>
+                  </lg>
+               </div>
+               <div xml:id="旧国歌大観番号一三四">
+                  <p style="text-indent:3em">或本反哥曰</p>
+                  <lg xml:id="manyo0134" type="短歌">
+                     <l xml:id="manyo0134_01"><lb/>石見尓有高角山乃木間従文吾袂振乎妹見監鴨</l>
+                     <l xml:id="manyokun0134_01" corresp="#manyo0134_01"><lb/>イハミニアルタカツノヤマノコノマヨリモ
+                        <note type="注" resp="#定家" place="right">伊云御本云ワカソテフルヲイモミケモカモ</note>ワカフルソテヲイモミラムカモ<anchor type="noteEnd"/></l>
+                  </lg>
+               </div>
+               <pb n="六〇丁表" facs="https://www.iiif.ku-orcas.kansai-u.ac.jp/iiif/2/210464810%2F0058.tif/full/full/0/default.jpg"/>
+               <div xml:id="旧国歌大観番号一三五">
+                  <ab xml:id="manyo0135" type="長歌">
+                     <lb/><seg type="ruby"><seg type="rb">角障経石見之海乃言佐敝久辛乃埼有伊久里尓曽</seg>
+                     <lb/><seg type="rt" rend="right">ツノサフルイハミノウミノコトサヘクカラノサキナルイクリニソ</seg></seg>
+                     <lb/><seg type="ruby"><seg type="rb">深海松生流荒礒尓曽玉藻者生流玉藻成靡寐之</seg>
+                     <lb/><seg type="rt" rend="right">フカミルオフルアライソニソタマモハオフルタマモナスナヒキネシ</seg></seg>
+                     <lb/><seg type="ruby"><seg type="rb">児乎深海松乃深目手思騰左宿夜者幾毛不有延都多</seg>
+                     <lb/><seg type="rt" rend="right">コヲフカミルノフカメテオモフトサヌルヨハイクラモアラスハフツタ</seg></seg>
+                     <lb/><seg type="ruby"><seg type="rb">乃別之来者肝向心乎痛念乍顧為騰大舟之渡乃山之黄</seg>
+                     <lb/><seg type="rt" rend="right">ノワカレシクレハキモムカヒコヽロヲイタミオモヒツヽカヘリミヲ
+                        <note type="異訓" resp="#定家" place="right">スレト</note>スルヽ<anchor type="noteEnd"/>オホフネノワタリノヤマノモミチ</seg></seg>
+                     <lb/><seg type="ruby"><seg type="rb">葉乃散之<note type="異訓" resp="#定家" place="left">マカヒ</note>乱<anchor type="noteEnd"/>
+                        尓妹袖清尓毛不見<note type="異文" resp="#定家" place="left">儒</note>嬬<anchor type="noteEnd"/>隠有屋上乃
+                        <note type="割書" resp="#万葉集">一云室<milestone unit="br"/>上山</note>山乃</seg>
+                     <lb/><seg type="rt" rend="right">ハノチリシミタレニイモカソテサヤニモミエスカクレナルヤカミノヤマノ</seg></seg>
+                     <lb/><seg type="ruby"><seg type="rb">自雲間渡相月乃雖惜隠比来者天傳入日刺奴礼大夫跡</seg>
+                     <lb/><seg type="rt" rend="right">クモマヨリワタリアフツキノオシメトモカクロヒクレハアマツタフイリヒサシヌレマスラヲト</seg></seg>
+                     <lb/><seg type="ruby"><seg type="rb">念有吾毛敷妙乃衣袖者通<note type="注" resp="#定家" place="left" corresp="#note0025">伊云御本云無而沾二字有御字可尋
+                        <note type="割書" resp="#定家">今案可霑一字<milestone unit="br"/>而誤上二字欤</note></note>
+                        而沾<anchor type="noteEnd" xml:id="note0025"/>奴</seg>
+                     <lb/><seg type="rt" rend="right">オモヘルワレモシキタヘノコロモノソテハカヨヒテヌレヌ</seg></seg>
+                  </ab>
+               </div>
+               <pb n="六〇丁裏" facs="https://www.iiif.ku-orcas.kansai-u.ac.jp/iiif/2/210464810%2F0059.tif/full/full/0/default.jpg"/>
+               <div xml:id="旧国歌大観番号一三六">
+                  <p style="text-indent:3em">反歌二首</p>
+                  <lg xml:id="manyo0136" type="短歌">
+                     <l xml:id="manyo0136_01"><lb/>青駒之足掻乎速雲居曽妹之當乎過而来計類<note type="割書" resp="#万葉集">一云當者<milestone unit="br"/>隠来計留</note></l>
+                     <l xml:id="manyokun0136_01" corresp="#manyo0136_01"><lb/>アヲコマノアカキヲハヤミクモヰニソイモカアタリヲスキテキニケル</l>
+                  </lg>
+               </div>
+               <div xml:id="旧国歌大観番号一三七">
+                  <lg xml:id="manyo0137" type="短歌">
+                     <l xml:id="manyo0137_01"><lb/>秋山尓落黄葉須臾者勿散乱曽妹之當将見<note type="割書" resp="#万葉集">一云知里勿<milestone unit="br"/>乱曽</note></l>
+                     <l xml:id="manyokun0137_01" corresp="#manyo0137_01"><lb/>アキヤマニオツルモミチハシハラク
+                        <note type="合点" subtype="異訓" resp="#定家" place="right">〽ハ</note>モ<anchor type="noteEnd"/>チリナミタレソ
+                        <note type="注" resp="#定家" place="right">伊云御本云イモヽミルヘク同本云御本云<milestone unit="br"/>如今本</note>イモカアタリミム<anchor type="noteEnd"/></l>
+                  </lg>
+               </div>
+               <div xml:id="旧国歌大観番号一三八">
+                  <p style="text-indent:3em">或本歌一首<note type="割書" resp="#万葉集">并短哥</note></p>
+                  <ab xml:id="manyo0138" type="長歌">
+                     <lb/><seg type="ruby"><seg type="rb">石見之海津乃浦乎無美浦無跡人社見良米瀉無跡人</seg>
+                     <lb/><seg type="rt" rend="right">イハミノウミつのうらをなみうらなしと人こそみらめかたなしと人</seg></seg>
+                     <pb n="六一丁表" facs="https://www.iiif.ku-orcas.kansai-u.ac.jp/iiif/2/210464810%2F0059.tif/full/full/0/default.jpg"/>
+                     <lb/><seg type="ruby"><seg type="rb">社見良目者咲八師浦者雖無縦恵夜思瀉者雖無勇魚取</seg>
+                     <lb/><seg type="rt" rend="right">こそみらめよしゑやしうらはなけれとよしゑやしかたはなけれとくちらとる</seg></seg>
+                     <lb/><seg type="ruby"><seg type="rb">海邊乎指而柔田津乃荒礒之上尓
+                        <note type="注" resp="#定家" place="right">伊云敷同本云御本云蚊</note>蚊<anchor type="noteEnd"/>青生玉藻息都藻</seg>
+                     <lb/><seg type="rt" rend="right"><note type="異訓" resp="#定家" place="right">アマ</note>うみ<anchor type="noteEnd"/>
+                        へをさしてにきたつのあらいそのうへにかあをゝふるたまもおきつも</seg></seg>
+                     <lb/><seg type="ruby"><seg type="rb">明来者浪己曽来依夕去者風己曽来依浪之共波依玉藻</seg>
+                     <lb/><seg type="rt" rend="right">あけくれはなみこそきよれゆふされはかせこそきよれなみのともなみよるたまも</seg></seg>
+                     <lb/><seg type="ruby"><seg type="rb">成靡吾宿之敷妙之妹之手本乎露霜乃置而之来者</seg>
+                     <lb/><seg type="rt" rend="right">なりなひきわれかやとりししきたへのいもかたもとをつゆしものおきてゝくれは</seg></seg>
+                     <lb/><seg type="ruby"><seg type="rb">此道之八十隈毎萬段顧雖為弥遠尓里放来奴益高尓</seg>
+                     <lb/><seg type="rt" rend="right">このみちのやそくまことによろつたひかへりみすれというやと
+                        <note type="異訓" resp="#定家" place="right">ほ</note>を<anchor type="noteEnd"/>にさとはなれきぬいやたかに</seg></seg>
+                     <lb/><seg type="ruby"><seg type="rb">山毛越来奴早敷屋師吾嬬乃児我夏草乃思志萎而</seg>
+                     <lb/><seg type="rt" rend="right">山もこえきぬ<note type="異訓" resp="#定家" place="right">はしきやし</note>
+                        さしきやのし<anchor type="noteEnd"/>わかつまのこかなつくさのおもひしなえて</seg></seg>
+                     <lb/><seg type="ruby"><seg type="rb">将嘆角里将見靡此山</seg>
+                     <lb/><seg type="rt" rend="right">なけゝともつのゝさとみむなひけこの山</seg></seg>
+                  </ab>
+               </div>
+               <pb n="六一丁裏" facs="https://www.iiif.ku-orcas.kansai-u.ac.jp/iiif/2/210464810%2F0060.tif/full/full/0/default.jpg"/>
+               <div xml:id="旧国歌大観番号一三九">
+                  <p style="text-indent:3em">反謌一首</p>
+                  <lg xml:id="manyo0139" type="短歌">
+                     <l xml:id="manyo0139_01"><lb/><note type="合点" subtype="摘句" resp="#定家" place="right">〽いはみのうみうつたの山のこのまよりわかふるそてをいもみつらむか</note>
+                        石見之海打歌山乃木際従吾振袖乎妹将見香<anchor type="noteEnd"/></l>
+                     <l xml:id="manyokun0139_01" corresp="#manyo0139_01"><lb/><note type="注" resp="#定家" place="left">伊云御本云イハミノウミ</note>
+                        イハミ<note type="注" resp="#定家" place="right">或ウミ</note>ナル<anchor type="noteEnd"/><anchor type="noteEnd"/>ウツタノヤマノ
+                        <note type="注" resp="#定家" place="right">或コスヘ</note>コノマ<anchor type="noteEnd"/>ヨリワカフルソテヲイモミツラムカ</l>
+                  </lg>
+                  <p style="text-indent:3em">右歌<note type="異文" resp="#定家" place="right">躰</note>體<anchor type="noteEnd"/>雖同句々相替因此重載</p>
+               </div>
+            </div>
+            <div corresp="#依羅娘子">
+               <div xml:id="旧国歌大観番号一四〇">
+                  <p style="text-indent:3em">柿本朝臣人麿妻依羅娘子與人麿相別歌一首</p>
+                  <lg xml:id="manyo0140" type="短歌">
+                     <l xml:id="manyo0140_01">勿念跡君者雖言相時何時跡知而加吾不戀有乎</l>
+                     <l xml:id="manyokun0140_01" corresp="#manyo0140_01">オモフナトキミハイ<note type="注" resp="#定家" place="right">
+                        伊本云同本御本如今<milestone unit="br"/>ヘ</note>フ<anchor type="noteEnd"/>トモアハムトキイツトシリテカワカコヒサラム</l>
+                  </lg>
+               </div>
+            </div>
+         </div>
+      </body>
+      <back>
+         <listBibl>
+            <bibl xml:id="万葉集">万葉集</bibl>
+         </listBibl>
+         <listPerson>
+            <person xml:id="磐姫皇后">
+               <name>磐姫皇后</name>
+            </person>
+            <person xml:id="軽太郎女">
+               <name>軽太郎女</name>
+            </person>
+            <person xml:id="天智天皇">
+               <name>天智天皇</name>
+            </person>
+            <person xml:id="鏡王女">
+               <name>鏡王女</name>
+            </person>
+            <person xml:id="内大臣藤原卿">
+               <name>内大臣藤原卿</name>
+            </person>
+            <person xml:id="久米禅師">
+               <name>久米禅師</name>
+            </person>
+            <person xml:id="石川郎女">
+               <name>石川郎女</name>
+            </person>
+            <person xml:id="大伴宿祢">
+               <name>大伴宿祢</name>
+            </person>
+            <person xml:id="巨勢郎女">
+               <name>巨勢郎女</name>
+            </person>
+            <person xml:id="天武天皇">
+               <name>天武天皇</name>
+            </person>
+            <person xml:id="藤原夫人">
+               <name>藤原夫人</name>
+            </person>
+            <person xml:id="大伯皇女">
+               <name>大伯皇女</name>
+            </person>
+            <person xml:id="大津皇子">
+               <name>大津皇子</name>
+            </person>
+            <person xml:id="日並皇子">
+               <name>草壁皇子</name>
+            </person>
+            <person xml:id="弓削皇子">
+               <name>弓削皇子</name>
+            </person>
+            <person xml:id="額田王">
+               <name>額田王</name>
+            </person>
+            <person xml:id="但馬皇女">
+               <name>但馬皇女</name>
+            </person>
+            <person xml:id="舎人皇子">
+               <name>舎人皇子</name>
+            </person>
+            <person xml:id="舎人娘子">
+               <name>舎人娘子</name>
+            </person>
+            <person xml:id="三方沙弥">
+               <name>三方沙弥</name>
+            </person>
+            <person xml:id="園臣生羽女">
+               <name>園臣生羽女</name>
+            </person>
+            <person xml:id="石川女郎">
+               <name>石川女郎</name>
+            </person>
+            <person xml:id="大伴宿祢田主">
+               <name>大伴宿祢田主</name>
+            </person>
+            <person xml:id="長皇子">
+               <name>長皇子</name>
+            </person>
+            <person xml:id="柿本人麻呂">
+               <name>柿本人麻呂</name>
+            </person>
+            <person xml:id="定家">
+               <name>藤原定家</name>
+            </person>
+         </listPerson>
+      </back>
+   </text>
+</TEI>
