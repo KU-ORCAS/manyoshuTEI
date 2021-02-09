@@ -54,40 +54,45 @@
          <editorialDecl>
             <p><list>
                   <item> 1.
-                     長歌・短歌・その他の本文という3種類のテキストを基本として構成されるものとして，それぞれ&lt;ab&gt;エレメント，&lt;lg&gt;エレメント，&lt;p&gt;エレメントでマークアップするとともに，長歌・短歌は@type属性で明示する．作者については@corresp属性でxml:id参照を付与する． </item>
+                     長歌・短歌・その他の本文という3種類のテキストを基本として構成されるものとして，それぞれ<gi>ab</gi>エレメント，<gi>lg</gi>エレメント，<gi>p</gi>エレメントでマークアップするとともに，長歌・短歌は@type属性で明示する．作者については@corresp属性でxml:id参照を付与する． </item>
                   <item> 2.
-                     登場する人名は，&lt;back&gt;中の&lt;listPerson&gt;に&lt;person&gt;としてリストし，それぞれにxml:idを付与して他の箇所から参照できるようにする． </item>
+                     登場する人名は，<gi>back</gi>中の<gi>listPerson</gi>に<gi>person</gi>としてリストし，それぞれにxml:idを付与して他の箇所から参照できるようにする． </item>
                   <item> 3.
-                     短歌の本文と訓の対応は，&lt;lg&gt;内でそれぞれ&lt;l&gt;でマークアップし，@xml:id/@correp属性で参照する．長歌の傍訓は，現在ルビのマークアップに際してよく用いられている&lt;seg&gt;タグと@type属性のruby,
+                     短歌の本文と訓の対応は，<gi>lg</gi>内でそれぞれ<gi>l</gi>でマークアップし，@xml:id/@correp属性で参照する．長歌の傍訓は，現在ルビのマークアップに際してよく用いられている<gi>seg</gi>タグと@type属性のruby,
                      rt, rbを用いて，傍訓とその対象を記述する． </item>
                   <item> 4.
-                     本文以外のテキスト（ここでは便宜上，これを「書き入れ」と称する）については，種類に応じて&lt;note&gt;，&lt;add&gt;，&lt;corr&gt;エレメントを用いてマークアップを行う．&lt;note&gt;には内容的にみていくつかのタイプがあるため，これを@type属性で区別する．また，位置情報が重要になる場合もあるため，可能な限り，@place属性で位置情報を記述する．位置情報の値は，TEIガイドラインで提供されている値を用いることを基本とするが，上下左右の余白に記述されている場合は，margin-*というプレフィックスを値につけることで対応する． </item>
-                  <item> 5. &lt;note&gt;の@typeは，本資料の書き入れの状況に鑑み，以下のように設定した．また，朱字については，今回は対象外とする．
+                     本文以外のテキスト（ここでは便宜上，これを「書き入れ」と称する）については，種類に応じて<gi>note</gi>，<gi>add</gi>，<gi>corr</gi>エレメントを用いてマークアップを行う．<gi>note</gi>には内容的にみていくつかのタイプがあるため，これを@type属性で区別する．また，位置情報が重要になる場合もあるため，可能な限り，@place属性で位置情報を記述する．位置情報の値は，TEIガイドラインで提供されている値を用いることを基本とするが，上下左右の余白に記述されている場合は，margin-*というプレフィックスを値につけることで対応する． </item>
+                  <item> 5. <gi>note</gi>の@typeは，本資料の書き入れの状況に鑑み，以下のように設定した．また，朱字については，今回は対象外とする．
                      　合点（異文，異訓，摘句），注，異文，異訓，訓，送り，割書 　なお，合点についてはさらに3つに細分化されるが，これは@subtype属性を用いて記述する．
                      　それぞれの由来については@resp属性で示す． </item>
-                  <item> 6. 補入については，&lt;add&gt;エレメントを用い，@place属性をすべて付与する． </item>
+                  <item> 6. 補入については，<gi>add</gi>エレメントを用い，@place属性をすべて付与する． </item>
                   <item> 7.
-                     訂正については，ミセケチがある場合は&lt;del&gt;で削除を示して追記には&lt;add&gt;を付与し，全体を&lt;subst&gt;で囲んでいる．また，ミセケチがない場合は&lt;corr&gt;で訂正を示し，訂正の対象になっているものを&lt;sic&gt;，両者を&lt;choice&gt;で囲むことで訂正対象と訂正との関係を明示している．すなわち，以下のようになる．
+                     訂正については，ミセケチがある場合は<gi>del</gi>で削除を示して追記には<gi>add</gi>を付与し，全体を<gi>subst</gi>で囲んでいる．また，ミセケチがない場合は<gi>corr</gi>で訂正を示し，訂正の対象になっているものを<gi>sic</gi>，両者を<gi>choice</gi>で囲むことで訂正対象と訂正との関係を明示している．すなわち，以下のようになる．
                      ・ミセケチあり：
-                     &lt;subst&gt;&lt;del&gt;誤字&lt;/del&gt;&lt;add&gt;訂正文字&lt;/add&gt;&lt;/subst&gt;
+                     <![CDATA[
+                       <subst><del>誤字</del><add>訂正文字</add></subst>
+                     ]]>
                      ・ミセケチなし：
-                     &lt;choice&gt;&lt;sic&gt;誤字&lt;/sic&gt;&lt;corr&gt;訂正文字&lt;/corr&gt;&lt;/choice&gt;としている．いずれも，その由来については@resp属性で示す． </item>
+                     <![CDATA[
+                       <choice><sic>誤字</sic><corr>訂正文字</corr></choice>
+                     ]]>
+                     としている．いずれも，その由来については@resp属性で示す． </item>
                   <item> 8.
-                     書き入れは，本文の任意の箇所が対象になることが多い．それを機械的に確認できるのであれば，機械的な分析を通じた発見の可能性はより大きくなる．そこで，&lt;note&gt;の対象になるテキストを明示するようにマークアップすることとする．具体的には，本文中の対象の始点に&lt;note&gt;エレメントを挿入し，終点には，@type=”noteEnd”属性を持たせた空タグの&lt;anchor&gt;エレメントを入れる．また，始点と終点がわかりにくい場合には，&lt;anchor&gt;に@xml:id
-                     属性を付与し，&lt;note&gt;エレメントに用意されている@targetEndから参照することで，始点と終点の関係を明示できるようにする． </item>
+                     書き入れは，本文の任意の箇所が対象になることが多い．それを機械的に確認できるのであれば，機械的な分析を通じた発見の可能性はより大きくなる．そこで，<gi>note</gi>の対象になるテキストを明示するようにマークアップすることとする．具体的には，本文中の対象の始点に<gi>note</gi>エレメントを挿入し，終点には，@type=”noteEnd”属性を持たせた空タグの<gi>anchor</gi>エレメントを入れる．また，始点と終点がわかりにくい場合には，<gi>anchor</gi>に@xml:id
+                     属性を付与し，<gi>note</gi>エレメントに用意されている@targetEndから参照することで，始点と終点の関係を明示できるようにする． </item>
                   <item> 9.
                      書き入れの中には，定家本を由来とするものと，そうでないものとの少なくとも2種類が存在することが想定される．それについては，@resp属性で示して機械的に区別できるようにする． </item>
                   <item> 10.
-                     割書（割注）については，&lt;note&gt;タグでマークアップを行う．割書中の改行は，通常の改行&lt;lb/&gt;と区別するために，&lt;milestone
-                     unit="wbr"/&gt;を用いる[ ]． </item>
+                     割書（割注）については，<gi>note</gi>タグでマークアップを行う．割書中の改行は，通常の改行<gi>lb</gi>と区別するために，<gi>milestone</gi>
+                     @unit="wbr" を用いる． </item>
                   <item> 11. インデントの大きさの表現には@styleを用い，emを単位として位置を大まかに確認できるようにする． </item>
                   <item> 12. 既存の研究成果や研究活動との親和性を少しでも確保するため，旧国歌大観番号をxml:idとして付与することで，参照をしやすいようにする． </item>
                   <item> 13.
-                     &lt;pb/&gt;エレメントは，頁ごとに対応させ，既存の頁の数え方にあわせた値を持たせることを基本とし，後述するように，頁画像段位で，IIIFに対応するための@source属性と@corresp属性を付与する． </item>
+                     <gi>pb</gi>エレメントは，頁ごとに対応させ，既存の頁の数え方にあわせた値を持たせることを基本とし，後述するように，頁画像段位で，IIIFに対応するための@source属性と@corresp属性を付与する． </item>
                   <item> 14. IIIF Manifestとテキストデータの対応づけについては，まず，Manifest
-                     URIが&lt;facsimile&gt;に，Canvas URIが&lt;surface&gt;に，フルサイズ画像のIIIF Image API
-                     URIが&lt;graphic&gt;に対応するように，それぞれのURIを@source属性で記述する．その上で，テキストの位置と画像コマの対応については，&lt;surface&gt;にxml:id属性を付与し，その値を&lt;pb/&gt;
-                     から@corresp属性で参照させて，各画像コマ中のテキストの始まりと&lt;pb/&gt;タグが対応づけられるようにする． </item>
+                     URIが<gi>facsimile</gi>に，Canvas URIが<gi>surface</gi>に，フルサイズ画像のIIIF Image API
+                     URIが<gi>graphic</gi>に対応するように，それぞれのURIを@source属性で記述する．その上で，テキストの位置と画像コマの対応については，<gi>surface</gi>にxml:id属性を付与し，その値を<gi>pb</gi>
+                     から@corresp属性で参照させて，各画像コマ中のテキストの始まりと<gi>pb</gi>タグが対応づけられるようにする． </item>
                </list>
             </p>
          </editorialDecl>
@@ -227,14 +232,16 @@
                      targetEnd="#noteEnd0001" type="注" xml:id="note00021">木梨軽皇子<milestone unit="wbr"
                         />廿三年三月立<milestone unit="wbr"/> 為皇太子允/恭第一皇子<milestone unit="wbr"
                         />母皇后忍坂<milestone unit="wbr"/>
-                     <note place="margin-right" resp="#定家" targetEnd="#note0011e" type="注"
-                        xml:id="note00022"><note place="right" resp="#定家" targetEnd="#note0013e"
-                           type="訓" xml:id="note00023">ワカノケフタマタ</note>
-                        <note place="right" resp="#定家" targetEnd="#note0015e" type="注"
-                           xml:id="note00024">應神御子第八</note> 稚野毛二<note corresp="#0014" place="right"
-                           resp="#定家" type="注" xml:id="note00025">派</note> 派<anchor type="noteEnd"
-                           xml:id="note0013e"/><anchor type="noteEnd" xml:id="note0014e"/>皇子<anchor
-                           type="noteEnd" xml:id="note0015e"/>女也</note>
+                     <note place="margin-right" resp="#定家" targetEnd="#note0011e" type="注" xml:id="note00022">
+                        <note place="right" resp="#定家" targetEnd="#note0013e" type="訓" xml:id="note00023">ワカノケフタマタ</note>
+                        <note place="right" resp="#定家" targetEnd="#note0015e" type="注" xml:id="note00024">應神御子第八</note>
+                        稚野毛二
+                        <note corresp="#0014" place="right" resp="#定家" type="注" xml:id="note00025" targetEnd="#note0014e">派</note>
+                        派
+                        <anchor type="noteEnd" xml:id="note0013e"/>
+                        <anchor type="noteEnd" xml:id="note0014e"/>皇子
+                        <anchor type="noteEnd" xml:id="note0015e"/>女也
+                     </note>
                      <note place="margin-right" resp="#定家" targetEnd="#note0012e" type="注"
                         xml:id="note00026">衣通姫姉二人納之</note> 大中姫<anchor type="noteEnd"
                         xml:id="note0011e"/><anchor type="noteEnd" xml:id="note0012e"/>
